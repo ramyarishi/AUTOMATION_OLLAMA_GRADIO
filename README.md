@@ -29,6 +29,3 @@ pandas
 matplotlib
 
 seaborn
-
-👩‍💻 Author
-Ramya – Aspiring Data Scientist working on real-time machine learning projects.
