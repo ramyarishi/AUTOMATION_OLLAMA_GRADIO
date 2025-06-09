@@ -1,31 +1,27 @@
-# 📊 Automated EDA Web App
+# 📊 LLM-Powered Exploratory Data Analysis (EDA)
 
-This Streamlit app allows you to upload any CSV file and automatically performs exploratory data analysis (EDA), including summary statistics, missing value checks, histograms, and a correlation heatmap.
+This project is a web-based application that performs **automated Exploratory Data Analysis (EDA)** on any uploaded CSV file using **Gradio**, **Pandas**, **Seaborn**, and **Ollama's Mistral model** for AI-generated insights.
 
 ---
 
 ## 🚀 Features
 
-- Upload any `.csv` dataset
-- Automatic handling of missing values
-- Summary statistics for numerical and categorical features
-- Histogram plots for numerical columns
-- Correlation heatmap to show feature relationships
-- Handles files with non-UTF-8 encodings like `latin1`
+- 📁 Upload a CSV dataset
+- 📈 Automatically generates:
+  - Statistical summaries
+  - Missing value analysis
+  - Histograms for numeric features
+  - Correlation heatmap
+- 🤖 AI-powered insights using the **Mistral-7B** language model via Ollama
+- 🧠 Auto-handles missing values using median (numerical) or mode (categorical)
 
 ---
-# Example Output
-👀 Displays head of the dataset
 
-📊 Shows histograms for numerical columns
+## 🛠️ Requirements
 
-🔥 Correlation heatmap for feature relationships
+- Python 3.8+
+- Install dependencies using pip:
 
-# Dependencies
-streamlit
+```bash
+pip install gradio pandas matplotlib seaborn ollama
 
-pandas
-
-matplotlib
-
-seaborn
